@@ -1,0 +1,601 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+}
+
+body{
+	background-color: #ccc;
+	font-size: 12px;
+	font-family: verdana;
+}
+
+.container{
+	width: 70%;
+	background-color: #ccc;
+	margin-left: 15%;
+	float: left;
+}
+
+.container .header{
+	width: 100%;
+	height: 85px;
+	background-color: #f2f2f2;
+	float: left;
+	padding-bottom: 10px;
+	padding-top: 5px;
+}
+
+.header .logo{
+	width: 5%;
+	float: left;
+}
+
+.header .logo img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.header .welcome_text{
+	width: 32%;
+	float: left;
+	margin-left:3%;;
+}
+
+.header h1{
+	float: left;
+	color: #003366;
+}
+
+.header .menu{
+	width: 50%;
+	height: 50px;
+	float: left;
+	margin-top: 35px;
+	margin-left: 10%;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu ul li{
+	list-style-type: none;
+	margin-left: 10%;
+}
+
+.menu ul li a{
+	font-size: 14px;
+	color: #000066;
+	float: left;
+	display: block;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+.menu ul li a:hover{
+	color: #3366cc;
+	font-size: 14px;
+}
+
+.content{
+	width: 100%;
+	margin-top: 5px;
+	background-color: #ccc;
+	float: left;
+}
+
+.content .product{
+	width: 69%;
+	background-color: #f2f2f2;
+	margin-right: 1%;
+	float: left;
+	height: 772px;
+}
+
+.content .pro{
+	width: 69%;
+	background-color: #f2f2f2;
+	margin-right: 1%;
+	float: left;
+	padding-bottom: 112px;
+}
+
+.content .con{
+	width: 100%;
+	height: 860px;
+	background-color: #f2f2f2;
+	float: left;
+}
+
+.con .contact{
+	width: 60%;
+	padding: 25px;
+	margin-left: 20%;
+	padding-top: 0px;
+}
+
+#con_tact {
+	width: 100%;
+	padding: 25px;
+	float: left;
+}
+
+.contact table tr{
+	font-size: 15px;
+	padding: 10px;
+}
+
+.contact table td{
+	font-size: 15px;
+	padding: 5px;
+	width: 90%;
+}
+
+.contact input{
+	width: 180%;
+	padding: 10px;
+}
+
+.contact select{
+	width: 187%;
+	padding: 10px;
+}
+
+.contact textarea{
+	width: 260%;
+	padding: 10px;
+	height: 130px;
+	resize: none;
+}
+
+#con_tact table tr{
+	font-size: 15px;
+	padding: 10px;
+}
+
+#con_tact table td{
+	font-size: 15px;
+	padding: 5px;
+	width: 90%;
+}
+
+#con_tact input{
+	width: 260%;
+	padding: 10px;
+}
+
+#con_tact textarea{
+	width: 260%;
+	padding: 10px;
+	height: 130px;
+	resize: none;
+}
+
+#conbtn input{
+	width: 50%;
+	font-size: 18px;
+	color: white;
+	background-color: #006699;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}
+
+.consub input{
+	width: 50%;
+	font-size: 18px;
+	color: white;
+	background-color: #006699;
+	border-radius: 5px;
+	cursor: pointer;
+	border: none;
+}
+
+#side {
+	height: 340px;
+}
+
+#offer {
+	height: 455px;
+}
+
+#home {
+	height: 800px;
+}
+
+#cont {
+	height: 687px;
+}
+
+.product .upper{
+	width: 100%;
+	float: left;
+	height: 460px;
+}
+
+.upper .description{
+	width: 91%;
+	margin: 4%;
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 5%;
+}
+
+.description{
+	margin: 4%;
+	width: 94%;
+	height: 80px;
+}
+
+#sign {
+	margin: 4%;
+	width: 92%;
+	height: 40px;
+	margin-bottom: 0px;
+}
+
+.upper .image_view{
+	width: 37%;
+	height: 75%;
+	margin: 4%;
+	float: left;
+	margin-bottom: 0px;
+	padding-bottom: 75px;
+	padding-top: 30px;
+	border: 2px solid #ccc;
+}
+
+.upper .product_description{
+	width: 52%;
+	height: 455px;
+	margin: 4%;
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 2%;
+	margin-left: 0%;
+}
+
+
+.upper button{
+	margin-left: 297px;
+	margin-top: 30px;
+	padding: 15px;
+	font-size: 20px;
+	border-radius: 25px;
+	background-color: green;
+	border: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.product_description table{
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+}
+
+.product_description .single_data{
+	text-align: left;
+    padding: 10px;
+	font-size: 14px;
+}
+
+.product_description tr:nth-child(odd){background-color: #d9d9f2;}
+	
+
+.sin_data{
+	background-color: #3366cc;
+    color: white;
+	border-bottom: 1px solid white;
+}
+
+.short p{
+	font-size: 12px;
+}
+
+.image_view img{
+	width: 90%;
+	height: 90%;
+	float: left;
+	padding: 25px;
+}
+
+
+.pro .description{
+	width: 95%;
+	margin: 4%;
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 5%;
+}
+
+.description h2{
+	color: #3366cc;
+	padding-bottom: 10px;
+}
+
+.description p{
+	padding-bottom: 10px;
+	margin-right: 10px;
+	text-align: justify;
+}
+
+.product .search{
+	width: 94%;
+	margin: 4%;
+	float: left;
+	margin-bottom: 0px;
+	height: 40px;
+}
+
+.search select {
+	width: 21%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+.search .sel {
+	width: 27%;
+}
+
+.search .selt {
+	width: 32.5%;
+}
+
+.product .dsearch{
+	width: 70%;
+	margin: 4%;
+	margin-left: 15%;
+	float: left;
+	margin-bottom: 0px;
+}
+
+.search input,.dsearch input{
+	padding: 5px;
+	background-color: #80bfff;
+	color: white;
+	border: 1px solid;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+.search input,.dsearch input:hover{
+	background-color: #80bccc;
+	cursor: pointer;
+}
+
+.product .product_image{
+	width: 96%;
+	margin: 4%;
+	float: left;
+	margin-bottom: 0px;
+	height: 500px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.product .dealer_image{
+	width: 96%;
+	margin: 4%;
+	float: left;
+	margin-bottom: 0px;
+}
+
+.product_image .item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 22%;
+	margin-right: 2%;
+	margin-bottom: 25px;
+}
+
+.dealer_image .item{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+	margin-right: 2%;
+	margin-bottom: 25px;
+}
+
+.item img {
+    width: 100%;
+    height: 120px;
+    background-color: grey;
+	float: left;
+}
+
+.dealer_image .item .extra img{
+	border-radius: 15px;
+}
+.item .caption {
+    display: block;
+}
+
+.content .pagination{
+	width: 60%;
+	margin-left: 20%;
+	float: left;
+	height: 50px;
+}
+
+.pagination ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.pagination ul li{
+	list-style-type: none;
+}
+
+.pagination ul li a{
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #3366cc;
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 14px;
+	height: 20px;
+	width: 6.1%;
+}
+
+.content .sidebar{
+	width: 30%;
+	background-color: #f2f2f2;
+	float: left;
+	height: 320px;
+}
+
+.sidebar .login{
+	width: 100%;
+	background-color: #f2f2f2;
+	float: left;
+	height: 340px;
+}
+
+#log {
+	height: 524px;
+}
+
+.login img {
+	width: 100%;
+	height: 100%;
+}
+
+.login h3{
+	text-align: center;
+	padding: 25px 15px 0px 15px;
+	color: #3366cc;
+}
+
+.login table h3{
+	padding: 15px 55px 0px 0px;
+	color: #000066;
+}
+ .login input{
+	margin: 10px;
+	margin-bottom: 5px;
+	margin-left:30px;
+	padding: 5px;
+	width: 90%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.login p{
+	color: red;
+	padding-left: 30px;
+}
+
+.login .pass h3{
+	padding-top: 5px;
+}
+
+.login .submit input{
+	padding-top: 5px;
+	width: 50%;
+	font-size: 16px;
+	background-color: #3366cc;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 15px;
+}
+
+.signup {
+	float: left;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.signup h4{
+	text-align: center;
+	color: #000066;
+}
+
+.signup span{
+	font-size: 14px;
+}
+
+.signup span a{
+	color: #3366cc;
+}
+
+.content .offers{
+	width: 30%;
+	background-color: #f2f2f2;
+	float: left;
+	margin-top: 5px;
+	height: 447px;
+}
+
+.content .adds{
+	width: 30%;
+	background-color: #f2f2f2;
+	float: left;
+	margin-top: 5px;
+	height: 200px;
+}
+
+#pro{
+	height: 525px;
+}
+
+.offer_desc h3{
+	text-align: center;
+	padding: 25px 15px 0px 15px;
+	color: #3366cc;
+	font-size: 18px;
+}
+
+.offer_desc p{
+	text-align: justify;
+	padding: 15px;
+	color: #000066;
+	font-weight: bold;
+}
+
+.offer_point ul{
+	padding: 25px;
+	color: #3366cc;
+	padding-top: 5px;
+	padding-bottom: 183px;
+}
+
+.footer{
+	width: 100%;
+	background-color: #f2f2f2;
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+	height: 35px;
+	padding-top: 15px;
+}
+
+.warn {
+	text-align: center;
+	color: red;
+	font-size: 20px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+.success {
+	text-align: center;
+	color: green;
+	font-size: 20px;
+	padding: 10px;
+	padding-bottom: 0px;
+}

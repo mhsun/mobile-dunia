@@ -1,0 +1,411 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0;
+}
+
+body{
+	font-family: verdana;
+	background-color: #ccc;
+}
+
+a {
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	background-color: white;
+}
+
+.container .sidebar{
+	width: 20%;
+	float: left;
+	background-color: #336699;
+	height: 657px;
+}
+
+.sidebar .single_menu_header {
+	width: 100%;
+	float: left;
+	background-color: #336699;
+	border-bottom: 1px solid #fff;
+}
+
+.single_menu_header:hover {
+	background-color: #669999;
+}
+
+.single_menu_header ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.single_menu_header ul li{
+	list-style-type: none;
+	padding: 10px;
+}
+
+.single_menu_header ul li a{
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.sidebar .menu {
+	width: 100%;
+	float: left;
+	background-color: #8cb3d9;
+	border-bottom: 1px solid #fff;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu ul li{
+	list-style-type: none;
+	padding: 5px;
+}
+
+.menu ul li:hover {
+	background-color: #669999;
+}
+
+.menu ul li a{
+	padding-left: 30px;
+	width: 100%;
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	cursor: pointer;
+}
+
+.sidebar .menu_header {
+	width: 100%;
+	float: left;
+	background-color: #336699;
+}
+
+.menu_header ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu_header ul li{
+	list-style-type: none;
+	padding: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+.container .content {
+	width: 80%;
+	float: left;
+	background-color: whitesmoke;
+	height: 657px;
+}
+
+.content .welcome{
+	width: 100%;
+	float: left;
+	margin-top: 50px;
+}
+
+.welcome h1 {
+	text-align: center;
+	color: #8cb3d9;
+}
+
+.content .single_welcome{
+	width: 100%;
+	float: left;
+	margin-top: 150px;
+}
+
+.single_welcome h1 {
+	text-align: center;
+	color: #8cb3d9;
+}
+
+.content .stat{
+	width: 100%;
+	float: left;
+	margin-top: 100px;
+}
+
+.stat .total{
+	width: 20%;
+	height: 120px;
+	float: left;
+	background-color: #336699;
+	border-radius: 10px;
+	margin-left: 10%;
+}
+
+.stat .single_total{
+	width: 40%;
+	height: 150px;
+	float: left;
+	background-color: #336699;
+	border-radius: 10px;
+	margin-left: 30%;
+}
+
+.total h2{
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
+.total h3{
+	text-align: center;
+	padding-top: 25px;
+	color: white;
+}
+
+.single_total h1{
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+}
+
+.single_total h2{
+	text-align: center;
+	padding-top: 25px;
+	color: white;
+}
+
+.content .form_title {
+	width: 60%;
+	float: left;
+}
+
+.form_title h2{
+	margin-top: 50px;
+	padding-left: 25px;
+	color: #336699;
+}
+
+.content .product_form {
+	width: 60%;
+	margin-left: 20%;
+	float: left;
+	background-color: #336699;
+	margin-top: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	color: white;
+	border-radius:25px;
+}
+
+.product_form td{
+	padding: 5px;
+}
+
+.product_form input,select{
+	width: 340px;
+	height: 30px;
+	font-size: 14px;
+	border-radius: 5px;
+	border: none;
+	padding-left: 5px;
+}
+
+.product_form textarea{
+	width: 340px;
+	height: 80px;
+	font-size: 14px;
+	border-radius: 7px;
+	border: none;
+	padding-left: 5px;
+}
+
+.btn input{
+	width: 80px;
+	font-size: 18px;
+	background-color: whitesmoke;
+	color: #669999;
+	cursor: pointer;
+	padding: 2px;
+	font-weight: bold;
+}
+
+.btn input:hover {
+	background-color: #669999;
+	color: white;
+}
+
+.content .form_search {
+	width: 40%;
+	float: left;
+	margin-top: 50px;
+}
+
+.form_search input {
+	width: 50%;
+	height: 30px;
+	padding: 2px;
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+.form_search .btn_search {
+	width: 80px;
+	height: 37px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.content .data {
+	width: 95%;
+	float: left;
+	margin-top: 25px;
+	margin-left: 2.5%;
+}
+.data table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.data table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.data table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.data table th {
+	text-align: center;
+}
+
+.content .pagination{
+	width: 30%;
+	margin-left: 35%;
+	float: left;
+	margin-bottom: 33px;
+	margin-top: 25px;
+}
+
+.pagination ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.pagination ul li{
+	list-style-type: none;
+}
+
+.pagination ul li a{
+	display: block;
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #3366cc;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.pagination ul li a:hover{
+	background-color: white;
+	color: #3366cc
+}
+
+.content .user_img {
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 40px;
+	border-radius: 25px;
+	float: left;
+	height: 200px;
+}
+
+.user_img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 25px;
+	float: left;
+}
+
+.content #user {
+	width: 60%;
+	margin-left: 20%;
+}
+
+#user th {
+	text-align: left;
+}
+
+.content .action {
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 40px;
+	float: left;
+}
+
+.action a{
+	display: block;
+	text-decoration: none;
+	background-color: #3366cc;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+	float: left;
+	padding: 15px;
+	margin-left: 25px;
+}
+
+.content .cen {
+	width: 100%;
+	float: left;
+}
+
+.cen h2{
+	text-align: center;
+}
+
+.submsg {
+	background-color: whitesmoke;
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 25px;
+}
+
+.data .msg {
+	width: 30%;
+	background-color: #336699;
+	float: left;
+	padding: 5px;
+	margin-left: 35%;
+	margin-top: 40px;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+}
+
+.active {
+	background-color: #669999;
+}
+
+.clr{
+	color: green;
+}
+
+.dlt{
+	color: red;
+}
+
+.edt{
+	color: orange;
+}

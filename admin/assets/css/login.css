@@ -1,0 +1,80 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0;
+}
+
+body{
+	font-family: verdana;
+	background-color: #ccc;
+}
+
+.container{
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 130px;
+	padding: 5px;
+}
+
+.container .warning{
+	text-align: center;
+	color: red;
+	float: left;
+	width: 98%;
+	padding: 5px;
+	background-color: whitesmoke;
+	padding-top: 12px;
+}
+
+.container .login{
+	float: left;
+	width: 99.8%;
+	background-color: whitesmoke;
+}
+
+.login .login_header{
+	float: left;
+	width: 98%;
+}
+
+.login_header h2{
+	text-align: center;
+	font-size: 25px;
+	color: #003366;
+	padding: 20px;
+	padding-top: 15px;
+}
+
+.login .login_body{
+	float: left;
+	width: 99%;
+	padding-left: 25px;
+}
+
+.login_body table, tr {
+    color: #000066;
+    font-size: 15px;
+    padding: 5px;
+}
+
+input,select{
+	padding: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 212%;
+	font-size: 15px;
+	border: 1px solid black;
+}
+
+input:focus{
+	border: 1px solid black;
+}
+
+.sub input{
+	width: 224%;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+	margin-bottom: 25px;
+	background-color: #3366cc;
+}
